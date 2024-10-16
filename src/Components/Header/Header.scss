@@ -1,0 +1,74 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em;
+  position: fixed;
+  width: 100%;
+  border: 2px solid black;
+
+  .search-bar{
+  border: 2px solid black;
+  width: 35%;
+  border-radius: 1.5em;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+  input{
+    width: 85%;
+    padding: .4em .5em;
+    font-size: 1.125rem;
+    font-weight: 500;
+    outline-color: transparent;
+    border-color: transparent;
+  }
+
+  button{
+    width: 15%;
+    border: 1px solid transparent;
+    background: gainsboro;
+    cursor: pointer;
+
+    box-icon{
+      margin: auto;
+      display: flex;
+      align-self: center;
+    }
+  }
+}
+
+  .header-icons{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+    button{
+      cursor: pointer;
+      background: gainsboro;
+      border: 1px solid transparent;
+
+      box-icon{
+        margin: auto;
+        display: flex;
+        align-self: center;
+      }
+    }
+
+    button.nottie-bell{
+      width: 30px;
+      height: 30px;
+      border-radius: 50em;
+    }
+    
+    button.user-profile{
+      width: 40px;
+      height: 40px;
+      border-radius: 50em;
+    }
+  }
+}
+
+
+
+

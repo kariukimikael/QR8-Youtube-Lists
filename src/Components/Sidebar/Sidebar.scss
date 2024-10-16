@@ -1,0 +1,38 @@
+.side-bar{
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid black;
+  width: 20%;
+  height: 100%;
+  padding-inline: .5em;
+  
+  ul{
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: grid;
+    gap: .25em;
+
+    li{
+      border: 1px solid black;
+      padding: .25em;
+      cursor: pointer;
+      background: gainsboro;
+      border-radius: .25em;
+    }
+  }
+
+  button{
+    width: 100%;
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .15em;
+    padding: .25em .15em;
+    margin-top: .35em;
+    cursor: pointer;
+  }
+}

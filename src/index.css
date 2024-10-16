@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* Box sizing rules */
 *,
 *::before,
@@ -31,6 +31,7 @@ ol[role='list'] {
 body {
   min-height: 100dvh;
   line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Set shorter line heights on headings and interactive elements */
